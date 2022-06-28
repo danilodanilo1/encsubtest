@@ -1,12 +1,28 @@
-.wrapper-aside{
-  width:630px;
-  background-color: #286EFA;
+.wrapper-aside {
+  width: 630px;
+  background-color: #286efa;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.section-aside{
+.div-steps {
+  width: 630px;
+  position: absolute;
+  top: 0;
+  right: 150px;
+}
+
+.steps {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.section-aside {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +30,7 @@
   color: #ffffff;
 }
 
-.section-aside p{
+.section-aside p {
   width: 340px;
   line-height: 30px;
   font-size: 18px;

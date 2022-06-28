@@ -26,7 +26,7 @@ export default function Form() {
       password: password,
     });
   };
-console.log(gender)
+  
   const Select = () => {
     return (
       <select
@@ -36,7 +36,7 @@ console.log(gender)
         id="gender"
         value={gender}
       >
-        <option value="" selected disabled hidden >
+        <option value="" defaultValue disabled hidden >
           I would describe my user type as
         </option>
         <option value="female">Female</option>
@@ -45,13 +45,6 @@ console.log(gender)
     );
   };
   return (
-    <>
-      <p className="steps">
-        Step 1 of 3{" "}
-        <span className="boll">
-          • <span className="gray">• •</span>
-        </span>
-      </p>
       <div className="wrapper-form">
         <header className="header-form">
           <h1>Let’s set up your account </h1>
@@ -59,7 +52,7 @@ console.log(gender)
             Already have an account? <a href="https://devdanilonascimento.com" target='_blank'>Sign in</a>
           </p>
         </header>
-        <body>
+        <div>
           <form className="body-form" onSubmit={(e) => onSubmit(e)}>
             <Input
               placeholder={"Your name"}
@@ -72,9 +65,7 @@ console.log(gender)
               onChange={(e) => setEmail(e.target.value)}
               type="email"
             />
-            <div class="select-wrapper">
               <Select />
-            </div>
             <Input
               placeholder={"Password"}
               value={password}
@@ -89,8 +80,7 @@ console.log(gender)
               account, and to <a href="https://devdanilonascimento.com" target='_blank'>Terms of Service</a> and <a href="https://devdanilonascimento.com" target='_blank'>Privacy Policy.</a>
             </p>
           </form>
-        </body>
+        </div>
       </div>
-    </>
   );
 }
