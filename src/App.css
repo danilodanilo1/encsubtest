@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+input {
+  border-radius: 4px;
+  outline: none;
+}

@@ -1,0 +1,23 @@
+.wrapper-aside{
+  width:630px;
+  background-color: #286EFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-aside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.section-aside p{
+  width: 340px;
+  line-height: 30px;
+  font-size: 18px;
+  letter-spacing: 0.26px;
+  text-align: left;
+}
