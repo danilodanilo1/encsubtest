@@ -21,7 +21,7 @@ export default function Input({ placeholder, value, onChange, type, minLength })
         value={value}
         placeholder={placeholder}
         onChange={onChange}
-        type={ type === "password" && isEyeOpened ? "password" : "text"}
+        type={ type === "password" && isEyeOpened ? "password" : type === "email" ? "email" : "text"}
         minLength={minLength || ""}
       />
 
