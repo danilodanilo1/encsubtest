@@ -2,7 +2,7 @@
 
 ##To start to program you have to follow steps bellow
 
-### npm instal
+### npm install
 
 ### yarn run dev
 
