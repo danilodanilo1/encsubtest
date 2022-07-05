@@ -4,6 +4,6 @@
 
 ### npm install
 
-### yarn run dev
+### npm run dev
 
 ## then access localhost:3000

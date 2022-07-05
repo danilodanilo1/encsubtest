@@ -3,7 +3,7 @@ import "./style.css";
 
 export default function Aside() {
   return (
-    <div >
+    <aside >
       <div className="wrapper-aside">
         <div className="div-steps">
           <p className="steps">
@@ -21,6 +21,6 @@ export default function Aside() {
           </p>
         </section>
       </div>
-    </div>
+    </aside>
   );
 }
